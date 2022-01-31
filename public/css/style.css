@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: aqua;
+}
+body{
+    font-family:'Source Serif 4',sans-serif;
+    height: 1000px;
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+}
+h3{
+    font-size: 30px;
+    color:crimson;
+    padding: 10px;
+    border-bottom:2px solid indigo;
+}
+table
+{
+    width: 100%;
+    padding: 10px;
+}
+thead th
+{
+    background-color: khaki;
+    padding: 5px;
+}
+tbody td
+{
+    padding: 15px;
+}
+tbody tr:nth-child(even)
+{
+    background-color: lightblue;
+}
+#add_link{
+    margin-top: 20px;
+    margin-right: 17px;
+    text-align: right;
+}
+.edit,.delete,.add_student
+{
+    text-decoration: none;
+    padding:8px 20px;
+    /* display: block; 
+    width: 100px;
+     width: 50%; */
+    text-align:center;
+    color:white;
+    border-radius: 5px;
+}
+.edit{
+    background-color:rgb(18, 52, 117);
+}
+.delete{
+    background-color:rgb(153, 43, 71);
+}
+.add_student{
+    
+    background-color:rgb(43, 153, 61);
+}
+.form-group
+{
+    margin: 10px 15px;
+    padding: 5px;
+}
+.form-group label,.form-group input
+{
+    display: block;
+    padding: 5px;
+}
+
+button
+{
+    padding:8px 20px;
+    color:white;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(43, 153, 61);
+}
+.alert
+{
+    margin-top: 10px;
+    display: block;
+    padding: 8px;
+    color:white;
+    background: seagreen;
+    border-radius: 5px;
+    height: 30px;
+}
+.back
+{
+    margin-left: 10px;
+    text-decoration: none;
+    padding:5px 20px;
+    color:white;
+    border-radius: 5px;
+    background-color: rgb(50, 53, 128);
+}
